@@ -1,0 +1,31 @@
+$padding: 25px;
+$width: 100px;
+.searchBar {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  .imgDiv img {
+    width: 200px;
+    height: 200px;
+  }
+  .title {
+    padding : $padding;
+    font-size: xx-large;
+  }
+  .weatherSearch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+  }
+  .inputBox input {
+    padding: 15px;
+    width: $width + 400;
+  }
+  .submitButton button {
+    background-color: dodgerblue;
+    padding: 15px;
+    width: $width;
+  }
+}

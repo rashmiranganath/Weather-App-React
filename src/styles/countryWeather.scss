@@ -1,0 +1,58 @@
+.weatherDataDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  .countryCount {
+    font-size: xx-large;
+    font-family: inherit;
+  }
+  .countryDeatils {
+    width: 500px;
+    border: 2px solid green;
+    padding: 50px;
+    margin: 20px;
+    .subDiv {
+      padding-bottom: 35px;
+      display: flex;
+      justify-content: center;
+      font-size: xx-large;
+      .countryName {
+        display: flex;
+        justify-content: center;
+      }
+    }
+
+    .flagDetails {
+      justify-content: space-around;
+      display: flex;
+      .flag {
+        img {
+          width: 200px;
+          height: 200px;
+        }
+      }
+      .infoDetails {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        font-size: x-large;
+      }
+    }
+  }
+}
+
+.errorPage {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  h3 {
+    font-size: xx-large;
+    font-style: italic;
+    color: red;
+  }
+  span img {
+    height: 300px;
+    width: 300px;
+  }
+}
