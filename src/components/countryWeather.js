@@ -49,15 +49,17 @@ export class CountryWeather extends React.Component {
       });
       this.props.isLoading(false);
     } catch (err) {
-      this.props.isLoading(false);
       this.setState({
         hasError: true,
       });
+      this.props.isLoading(false);
+
     }
   };
 
   renderWeatherData = () => {
     console.log("no error");
+    console.log(this.props)
     const { getData } = this.state;
     if(this.props.loading){
       return " "
